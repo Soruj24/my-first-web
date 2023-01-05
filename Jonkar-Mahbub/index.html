@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML AND CSS</title>
+</head>
+<style>
+    div {
+        margin-bottom: 10px;
+    }
+    #file{
+        color: rgb(255, 7, 40);
+    }
+</style>
+
+<body>
+    <h1>Hello HTML</h1>
+    <form>
+        <fieldset>
+            <legend>Soruj Mahmud</legend>
+            <div>
+                <label for="fname">First Name : </label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <div>
+                <label for="lname">Last Name : </label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div>
+                <label for="email"> Email :</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="birthday">birthday</label>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form><br><br>
+    <form action="#">
+        <fieldset>
+            <legend>Choose a car</legend>
+            <select name="cars" id="cars">
+                <optgroup label="Swedish Cars">
+                    <option value="volvo">Volovo</option>
+                    <option value="saab">Saad</option>
+                    <option value="table">Table</option>
+                    <option value="pen">Pen</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </form>
+   <div>
+    <label for="file">Downloading...</label>
+    <progress id="file" value="32" max="100">32%</progress>
+   </div>
+    <label for="file">Downloading...</label>
+    <progress></progress>
+</body>
+
+</html>

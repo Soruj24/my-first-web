@@ -1,0 +1,58 @@
+
+
+
+
+
+.heading {
+  color: rgb(255, 255, 255);
+  background-color: purple;
+  padding: 15px;
+  text-align: center;
+}
+
+.card {
+  background-color: #fbff00;
+  width: 250px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(161, 136, 186);
+display: inline-block;
+transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #eeff00;
+  box-shadow: 5px 5px 5px rgb(83, 31, 134);
+}
+.cardTitle{
+  text-align: center;
+}
+
+.cardDcse {
+  text-align: justify;
+}
+.cardFootr{
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+} 
+
+nav{
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-Link{
+  color: wheat;
+  margin: 1rem;
+  text-decoration: none;
+}
+.nav-Link:hover{
+  color: gold;
+}
+nav .active{
+  color: red;
+}

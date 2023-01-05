@@ -1,0 +1,127 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav{
+  height: 10vh;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .nav-link{
+  color: wheat;
+  margin: 1rem;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: orange;
+}
+nav .active{
+  color: red;
+}
+section{
+  display: grid;
+  grid-gap: 1rem ;
+}
+article{
+  background-color: rgb(212, 203, 203);
+}
+
+@media screen and(min-width:600px) {
+  section{
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and(min-width:992px) {
+  section{
+    grid-template-columns:auto auto auto;
+  }
+} */
+
+
+/* own style */
+/* .card{
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+}
+.btn{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 5rem;
+  cursor: pointer;
+  translate: all 0.3s;
+
+}
+.btn:hover{
+  background-color: orange;
+}
+input{
+  margin: 0.5rem;
+  padding: 0.rem;
+  width: 20rem;
+}
+section{
+  display: grid;
+}
+@media screen and (min-width: 600px) {
+  section{
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 780px) {
+  section{
+    grid-template-columns: auto auto auto;
+  }
+} */
+
+/* input{
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  width: 20rem;
+  font-size: 1.2rem;
+}
+input:focus{
+  background-color: bisque;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+} */
