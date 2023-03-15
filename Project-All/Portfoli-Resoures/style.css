@@ -1,0 +1,43 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ header{
+    background-image: url("./portfolio-resources/images/header_bg.png"),url("./portfolio-resources/images/developer.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-position: right bottom;
+ }
+ .sectionHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    
+ }
+ .sectionHeader span{
+    color: red;
+ }
+ .sectionHeader h1{
+    margin-left: 100px;
+    margin-top: 30px;
+ }
+ ul{
+    display: flex;
+    margin-right: 60px;
+    margin-top: 30px;
+ }
+ ul li{
+    list-style-type: none;
+    margin: 5px;
+ }
+ ul li a{
+    text-decoration: none;
+ }
+ ul li:last-child{
+    background-color: chocolate;
+    width: 70px;
+    height: 50px;
+ }

@@ -1,0 +1,9 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "docker.languageserver.formatter.ignoreMultilineInstructions": false,
+  "editor.formatOnPaste": true
+}

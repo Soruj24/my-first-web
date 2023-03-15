@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+.App{
+  text-align: center;
+}
+.App-header {
+  background-color: purple;
+  text-align: center;
+  padding: 15px;
+  color: #f0f8ff;
+  font-weight: bolder
+}
+
+.container {
+  display: flex;
+  display: inline-flex
+}
+
+.card {
+  width: 250px;
+  background-color: #e6ddd5;
+  padding: 10px;
+  margin: 5px;
+  transition: .7s;
+  border-radius: 10px
+}
+
+.card:hover {
+  box-shadow: 5px 5px 10px #eae6e6;
+  transform: rotate(1deg)
+}
+
+.card-title {
+  margin-bottom: 5px
+}
+
+.card-des {
+  text-align: justify;
+  margin-bottom: 10px;
+  font-style: italic
+}
+
+.card-date {
+  text-align: center;
+  font-weight: bolder;
+  background-color: #c4d5e3;
+  border-radius: 5px;
+  padding: 5px
+}
